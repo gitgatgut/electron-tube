@@ -1,0 +1,36 @@
+{
+  "name": "electron-tube",
+  "productName": "Electron Tube",
+  "version": "1.0.0",
+  "description": "A minimal YouTube interface",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Undead Mockingbird",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^16.0.5",
+    "electron-builder": "^22.14.5"
+  },
+  "build": {
+    "appId": "Electron Tube",
+    "mac": {
+      "category": "Media",
+      "icon": "icon.icns"
+    }
+  },
+  "dependencies": {
+    "electron-packager": "^15.4.0",
+    "node-static": "^0.7.11"
+  }
+}
